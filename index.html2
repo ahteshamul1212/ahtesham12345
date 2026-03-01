@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ahteshamul Cloud Website</title>
+  <style>
+    body{font-family:Arial;text-align:center;background:#f4f6f8;margin:0}
+    header{background:#0078D4;color:#fff;padding:40px}
+    section{padding:30px}
+    .card{background:#fff;padding:20px;margin:15px auto;max-width:300px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.1)}
+    button{background:#0078D4;color:#fff;border:none;padding:10px 18px;border-radius:6px;cursor:pointer}
+    button:hover{background:#005fa3}
+    #contact{display:none;margin-top:15px}
+  </style>
+  <script>
+    function showContact(){
+      document.getElementById("contact").style.display="block";
+    }
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>Ahteshamul Ansari</h1>
+  <p>Cloud & DevOps Learner</p>
+  <button onclick="showContact()">Contact</button>
+  <div id="contact">
+    <p>Email: you@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+  </div>
+</header>
+
+<section>
+  <div class="card">
+    <h3>Azure</h3>
+    <p>Hosting this site on a VM.</p>
+  </div>
+  <div class="card">
+    <h3>Linux</h3>
+    <p>Managing servers via SSH.</p>
+  </div>
+  <div class="card">
+    <h3>DevOps</h3>
+    <p>Using Git to deploy updates.</p>
+  </div>
+</section>
+
+</body>
+</html>
